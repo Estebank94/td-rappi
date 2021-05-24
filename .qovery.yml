@@ -1,0 +1,11 @@
+---
+application:
+  name: "td-rappi"
+  project: "TD-Rappi"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-td-rappi"
+  routes:
+  - application_name: "td-rappi"
+    paths:
+    - "/*"
